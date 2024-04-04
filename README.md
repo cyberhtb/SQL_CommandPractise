@@ -1,6 +1,8 @@
 
 # SQL Command Instructions
 
+<!-- created a database with table inside -->
+
 ```sql
 -- Creating a database named "users"
 CREATE DATABASE users;
@@ -20,4 +22,17 @@ CREATE TABLE logins(
     -- DATETIME use to storing data and time values. 
     date_of_joining DATETIME
 );
+```
+
+<!-- command to perform some activity in table  -->
+
+```sql
+
+-- it shows all table containing in database
+SHOW TABLES;
+
+-- describe an specific table contents
+
+DESCRIBE egtablename;
+
 ```
