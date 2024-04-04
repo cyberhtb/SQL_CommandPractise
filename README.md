@@ -1,8 +1,7 @@
 
 # SQL Command Instructions
 
-'''sql
--- creating a database 'user'
-CREATE DATABASE user
-
-'''
+```sql
+-- Creating a database named "user"
+CREATE DATABASE user;
+```
