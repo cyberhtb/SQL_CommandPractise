@@ -1,7 +1,7 @@
 
 # SQL Command Instructions
 
-<!-- created a database with table inside -->
+- Created a database with table inside
 
 ```sql
 -- Creating a database named "users"
@@ -24,7 +24,7 @@ CREATE TABLE logins(
 );
 ```
 
-<!-- command to perform some activity in table  -->
+- Command to perform some activity in table
 
 ```sql
 
