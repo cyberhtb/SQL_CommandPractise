@@ -36,3 +36,14 @@ SHOW TABLES;
 DESCRIBE egtablename;
 
 ```
+
+- Command to alter table column and it's properties
+
+```sql
+
+-- "INT" is column type, "NOT NULL" make sure column never remain NULL & "AUTO_INCREMENT" do as it sound increase value automatically 
+
+ALTER TABLE table_name
+MODIFY COLUMN column_name INT NOT NULL AUTO_INCREMENT,
+ADD PRIMARY KEY (column_name);
+```
